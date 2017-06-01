@@ -45,7 +45,7 @@ a:focus{outline:none;text-decoration:none !important;}
 100%{-webkit-transform:scale(1);transform:scale(1);opacity:0;}
 }
 .img-home{text-align:center;padding:30px 0;margin:0 auto;}
-.btn-slider{position: relative;top: -100px;display: flex;width: 20%;margin: 0 auto;background: #ffc525;color: #ffffff;font-size: 12px;letter-spacing: 2px;padding: 10px 20px;text-transform: uppercase;justify-content: center;transition:.2s;}
+.btn-slider{position: relative;display: flex;width: 20%;margin: 0 auto;background: #ffc525;color: #ffffff;font-size: 12px;letter-spacing: 2px;padding: 10px 20px;text-transform: uppercase;justify-content: center;transition:.2s;}
 .btn-slider:hover{background-color: green;color: #fff;}
 .btn-blog{display: flex;width: 120px;margin: 0 auto;background: #ffc525;color: #ffffff;font-size: 12px;letter-spacing: 2px;padding: 10px 20px;text-transform: uppercase;justify-content: center;transition:.2s;}
 .btn-blog:hover{background-color: green;color: #fff;}
@@ -178,4 +178,7 @@ h2{font-size:30px;}
 #productos .media-object img{width:100%;padding-bottom:14px;}
 #productos .media-object span.productos-price{top:30%;left:6%;}
 footer{text-align:center;}
+}
+@media screen and (min-width: 1048px) {
+  .btn-slider { top: -100px; }
 }
